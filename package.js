@@ -13,7 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.3.2.4');
   api.use(['ecmascript','templating', 'ui', 'blaze']);
-  api.use('aldeed:autoform');
+  api.use('aldeed:autoform@5.8.1');
 
   api.addFiles([
     'inputTypes/time-picker/html5_time_in_seconds.js',
